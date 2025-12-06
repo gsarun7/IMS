@@ -16,7 +16,7 @@ import java.util.List;
 import java.math.BigDecimal;
 import java.util.Optional;
 
-@CrossOrigin(origins = "http://localhost:5174")
+@CrossOrigin(origins = "https://inventory-ui-virid-theta.vercel.app")
 @RestController
 @RequestMapping("/api/items")
 public class ItemController {

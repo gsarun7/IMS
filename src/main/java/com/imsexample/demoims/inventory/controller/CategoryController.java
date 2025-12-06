@@ -6,7 +6,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-@CrossOrigin(origins = "http://localhost:5174")
+@CrossOrigin(origins = "https://inventory-ui-virid-theta.vercel.app")
 @RestController
 @RequestMapping("/api/categories")
 public class CategoryController {
